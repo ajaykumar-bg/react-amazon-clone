@@ -1,4 +1,7 @@
 import React from 'react';
+
+import { Search as SearchIcon } from '@material-ui/icons';
+
 import './Header.css';
 
 function Header() {
@@ -11,7 +14,7 @@ function Header() {
 			/>
 			<div className='header__search'>
 				<input className='header__searchInput' type='text' />
-				{/* Logo */}
+				<SearchIcon />
 			</div>
 			<div className='header__nav'>
 				<div className='header__option'>
